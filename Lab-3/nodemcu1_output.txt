@@ -1,0 +1,605 @@
+Testing baud rate: 9600
+Master: sending SETBAUD:9600
+Master: got confirmation OK:9600
+Master: switched SoftSerial to 9600 bps
+Test: Baud=9600, Size=10 bytes, Interval=0ms
+Timeout error
+Test Results:
+Messages Sent: 423
+Messages Received: 422
+Errors: 1
+Error Rate: 0.24%
+Throughput: 412.00 bytes/second
+Message Rate: 42.30 messages/second
+
+Test: Baud=9600, Size=10 bytes, Interval=10ms
+Test Results:
+Messages Sent: 331
+Messages Received: 331
+Errors: 0
+Error Rate: 0.00%
+Throughput: 320.00 bytes/second
+Message Rate: 33.10 messages/second
+
+Test: Baud=9600, Size=10 bytes, Interval=100ms
+Test Results:
+Messages Sent: 85
+Messages Received: 85
+Errors: 0
+Error Rate: 0.00%
+Throughput: 75.50 bytes/second
+Message Rate: 8.50 messages/second
+
+Test: Baud=9600, Size=50 bytes, Interval=0ms
+Test Results:
+Messages Sent: 99
+Messages Received: 99
+Errors: 0
+Error Rate: 0.00%
+Throughput: 484.10 bytes/second
+Message Rate: 9.90 messages/second
+
+Test: Baud=9600, Size=50 bytes, Interval=10ms
+Test Results:
+Messages Sent: 90
+Messages Received: 90
+Errors: 0
+Error Rate: 0.00%
+Throughput: 440.00 bytes/second
+Message Rate: 9.00 messages/second
+
+Test: Baud=9600, Size=50 bytes, Interval=100ms
+Test Results:
+Messages Sent: 50
+Messages Received: 50
+Errors: 0
+Error Rate: 0.00%
+Throughput: 244.00 bytes/second
+Message Rate: 5.00 messages/second
+
+Test: Baud=9600, Size=100 bytes, Interval=0ms
+Test Results:
+Messages Sent: 49
+Messages Received: 49
+Errors: 0
+Error Rate: 0.00%
+Throughput: 484.10 bytes/second
+Message Rate: 4.90 messages/second
+
+Test: Baud=9600, Size=100 bytes, Interval=10ms
+Test Results:
+Messages Sent: 47
+Messages Received: 47
+Errors: 0
+Error Rate: 0.00%
+Throughput: 464.30 bytes/second
+Message Rate: 4.70 messages/second
+
+Test: Baud=9600, Size=100 bytes, Interval=100ms
+Test Results:
+Messages Sent: 33
+Messages Received: 33
+Errors: 0
+Error Rate: 0.00%
+Throughput: 325.70 bytes/second
+Message Rate: 3.30 messages/second
+
+Testing baud rate: 38400
+Master: sending SETBAUD:38400
+Master: got confirmation OK:38400
+Master: switched SoftSerial to 38400 bps
+Test: Baud=38400, Size=10 bytes, Interval=0ms
+Timeout error
+Test Results:
+Messages Sent: 1562
+Messages Received: 1561
+Errors: 1
+Error Rate: 0.06%
+Throughput: 1607.20 bytes/second
+Message Rate: 156.20 messages/second
+
+Test: Baud=38400, Size=10 bytes, Interval=10ms
+Test Results:
+Messages Sent: 654
+Messages Received: 654
+Errors: 0
+Error Rate: 0.00%
+Throughput: 643.00 bytes/second
+Message Rate: 65.40 messages/second
+
+Test: Baud=38400, Size=10 bytes, Interval=100ms
+Test Results:
+Messages Sent: 96
+Messages Received: 96
+Errors: 0
+Error Rate: 0.00%
+Throughput: 85.40 bytes/second
+Message Rate: 9.60 messages/second
+
+Test: Baud=38400, Size=50 bytes, Interval=0ms
+Test Results:
+Messages Sent: 384
+Messages Received: 384
+Errors: 0
+Error Rate: 0.00%
+Throughput: 1909.00 bytes/second
+Message Rate: 38.40 messages/second
+
+Test: Baud=38400, Size=50 bytes, Interval=10ms
+Test Results:
+Messages Sent: 278
+Messages Received: 278
+Errors: 0
+Error Rate: 0.00%
+Throughput: 1379.00 bytes/second
+Message Rate: 27.80 messages/second
+
+Test: Baud=38400, Size=50 bytes, Interval=100ms
+Test Results:
+Messages Sent: 80
+Messages Received: 80
+Errors: 0
+Error Rate: 0.00%
+Throughput: 391.00 bytes/second
+Message Rate: 8.00 messages/second
+
+Test: Baud=38400, Size=100 bytes, Interval=0ms
+Test Results:
+Messages Sent: 193
+Messages Received: 193
+Errors: 0
+Error Rate: 0.00%
+Throughput: 1919.00 bytes/second
+Message Rate: 19.30 messages/second
+
+Test: Baud=38400, Size=100 bytes, Interval=10ms
+Test Results:
+Messages Sent: 162
+Messages Received: 162
+Errors: 0
+Error Rate: 0.00%
+Throughput: 1609.00 bytes/second
+Message Rate: 16.20 messages/second
+
+Test: Baud=38400, Size=100 bytes, Interval=100ms
+Test Results:
+Messages Sent: 66
+Messages Received: 66
+Errors: 0
+Error Rate: 0.00%
+Throughput: 652.40 bytes/second
+Message Rate: 6.60 messages/second
+
+Testing baud rate: 115200
+Master: sending SETBAUD:115200
+Master: got confirmation OK:115200
+Master: switched SoftSerial to 115200 bps
+Test: Baud=115200, Size=10 bytes, Interval=0ms
+Timeout error
+Mismatch error: Expected '6:DXXX', Got '6;DXXX'
+Mismatch error: Expected '8:DXXX', Got '8;DXXX'
+Timeout error
+Mismatch error: Expected '20:DXXX', Got '19:DXXX20:DXXX'
+Timeout error
+Mismatch error: Expected '22:DXXX', Got '21:DXXX22:DXXX'
+Mismatch error: Expected '25:DXXX', Got '25:DLXX'
+Mismatch error: Expected '29:DXXX', Got '29:D\XX'
+Mismatch error: Expected '30:DXXX', Got '30:DXXL'
+Timeout error
+Mismatch error: Expected '35:DXXX', Got '34:DXXX35:DXXX'
+Mismatch error: Expected '36:DXXX', Got '36:DX\X'
+Mismatch error: Expected '38:DXXX', Got '3<:DXXX'
+Timeout error
+Mismatch error: Expected '48:DXXX', Got '4<:DXXX'
+Mismatch error: Expected '57:DXXX', Got '57;DX\X'
+Mismatch error: Expected '58:DXXX', Got '58;DXXX'
+Timeout error
+Mismatch error: Expected '61:DXXX', Got '60:DXXX61;DXXX'
+Mismatch error: Expected '68:DXXX', Got '6<:DXXX'
+Mismatch error: Expected '69:DXXX', Got '69:DXX\'
+Mismatch error: Expected '72:DXXX', Got '72:D\XX'
+Mismatch error: Expected '78:DXXX', Got '7<:DXXH'
+Timeout error
+Mismatch error: Expected '80:DXXX', Got '79:DXXX80;DXXX'
+Mismatch error: Expected '83:DXXX', Got '83:DXLX'
+Mismatch error: Expected '86:DXXX', Got '86:DXLX'
+Mismatch error: Expected '88:DXXX', Got '88:DXX\'
+Timeout error
+Mismatch error: Expected '92:DXXX', Got '91:DXXX92:DXXX'
+Timeout error
+Mismatch error: Expected '95:DXXX', Got '94:DXXX'
+Mismatch error: Expected '96:DXXX', Got '95:DXXX'
+Mismatch error: Expected '97:DXXX', Got '96:DXXX'
+Mismatch error: Expected '98:DXXX', Got '97:DXXX'
+Mismatch error: Expected '99:DXXX', Got '98:DXXX'
+Mismatch error: Expected '100:DXXX', Got '99:DXXX'
+Mismatch error: Expected '101:DXXX', Got '100:DX\X'
+Mismatch error: Expected '102:DXXX', Got '101:DXXX'
+Mismatch error: Expected '103:DXXX', Got '102:DXXX'
+Mismatch error: Expected '104:DXXX', Got '103:DXXX'
+Mismatch error: Expected '105:DXXX', Got '104:DXXX'
+Mismatch error: Expected '106:DXXX', Got '105:DXXX'
+Mismatch error: Expected '107:DXXX', Got '106:DXXX'
+Mismatch error: Expected '108:DXXX', Got '107:DX\X'
+Mismatch error: Expected '109:DXXX', Got '108:DXXX'
+Mismatch error: Expected '110:DXXX', Got '109:DXX\'
+Mismatch error: Expected '111:DXXX', Got '110;DXXX'
+Mismatch error: Expected '112:DXXX', Got '111:DXXX'
+Mismatch error: Expected '113:DXXX', Got '112:DXXX'
+Mismatch error: Expected '114:DXXX', Got '113:DXXX114;DXXX'
+Timeout error
+Test Results:
+Messages Sent: 118
+Messages Received: 65
+Errors: 53
+Error Rate: 44.92%
+Throughput: 107.00 bytes/second
+Message Rate: 11.80 messages/second
+
+Test: Baud=115200, Size=10 bytes, Interval=10ms
+Mismatch error: Expected '0:DXXX', Got '117:DXXX'
+Mismatch error: Expected '1:DXXX', Got '0:DXXX'
+Mismatch error: Expected '2:DXXX', Got '1;DXXX2:DXXX'
+Mismatch error: Expected '9:DXXX', Got '9;DXXX'
+Timeout error
+Mismatch error: Expected '14:DXXX', Got '13:DXXX'
+Mismatch error: Expected '15:DXXX', Got '14:DXXX'
+Mismatch error: Expected '16:DXXX', Got '15:DXXX'
+Mismatch error: Expected '17:DXXX', Got '17:D\XX17:D\XX'
+Mismatch error: Expected '18:DXXX', Got '18:DLXX'
+Mismatch error: Expected '20:DXXX', Got '20:D\XX'
+Mismatch error: Expected '22:DXXX', Got '23:DXXX'
+Timeout error
+Mismatch error: Expected '24:DXXX', Got '24:D\LX'
+Mismatch error: Expected '25:DXXX', Got '25:DLXX'
+Mismatch error: Expected '26:DXXX', Got '27:DXXX'
+Mismatch error: Expected '42:DXXX', Got '42:D\XX'
+Timeout error
+Mismatch error: Expected '46:DXXX', Got '45:DXXX'
+Mismatch error: Expected '47:DXXX', Got '46:DXXX'
+Mismatch error: Expected '48:DXXX', Got '47:DXXX'
+Mismatch error: Expected '49:DXXX', Got '48:D\XX49:DXXX'
+Mismatch error: Expected '50:DXXX', Got '50:DLXX'
+Mismatch error: Expected '55:DXXX', Got '55:DXX\'
+Mismatch error: Expected '56:DXXX', Got '56:DXX\'
+Mismatch error: Expected '67:DXXX', Got '67:DHXX'
+Mismatch error: Expected '69:DXXX', Got '69:DLXX'
+Timeout error
+Mismatch error: Expected '72:DXXX', Got '71:DXXX'
+Mismatch error: Expected '73:DXXX', Got '72:DXXX'
+Mismatch error: Expected '74:DXXX', Got '73:DXXX'
+Mismatch error: Expected '75:DXXX', Got '74:DXXX'
+Mismatch error: Expected '76:DXXX', Got '75;DXXX72:DXXX'
+Mismatch error: Expected '78:DXXX', Got '78:D\XX'
+Mismatch error: Expected '80:DXXX', Got '80:DLXX'
+Timeout error
+Mismatch error: Expected '92:DXXX', Got '91:DXXX'
+Mismatch error: Expected '93:DXXX', Got '92:DXXX'
+Mismatch error: Expected '94:DXXX', Got '93:DXXX'
+Mismatch error: Expected '95:DXXX', Got '94:DXXX'
+Mismatch error: Expected '96:DXXX', Got '95;DXXX'
+Mismatch error: Expected '97:DXXX', Got '96:DXXX'
+Mismatch error: Expected '98:DXXX', Got '97:DXXX'
+Mismatch error: Expected '99:DXXX', Got '98:DHXX'
+Mismatch error: Expected '100:DXXX', Got '99:D\XX'
+Mismatch error: Expected '101:DXXX', Got '100:DXXX'
+Mismatch error: Expected '102:DXXX', Got '101:DXXX'
+Mismatch error: Expected '103:DXXX', Got '102:DXXX103:DXXX'
+Mismatch error: Expected '105:DXXX', Got '105:D\XX'
+Mismatch error: Expected '109:DXXX', Got '109:DXHX'
+Timeout error
+Mismatch error: Expected '115:DXXX', Got '114:DXXX'
+Mismatch error: Expected '116:DXXX', Got '115:DXXX116:DXXX'
+Mismatch error: Expected '118:DXXX', Got '11<:DXXX'
+Mismatch error: Expected '122:DXXX', Got '122:DX\X'
+Mismatch error: Expected '130:DXXX', Got '130;DXLX'
+Mismatch error: Expected '132:DXXX', Got '132:DXLX'
+Mismatch error: Expected '135:DXXX', Got '135:DX\X'
+Timeout error
+Mismatch error: Expected '147:DXXX', Got '146:DXXX'
+Mismatch error: Expected '148:DXXX', Got '147:DXXX'
+Mismatch error: Expected '149:DXXX', Got '148:DXXX149:DXXX'
+Mismatch error: Expected '151:DXXX', Got '151:DXXL'
+Mismatch error: Expected '152:DXXX', Got '153:DXXX'
+Mismatch error: Expected '153:DXXX', Got '153:DXXL'
+Timeout error
+Mismatch error: Expected '156:DXXX', Got '155:DXXL'
+Mismatch error: Expected '157:DXXX', Got '156:DXXX'
+Mismatch error: Expected '158:DXXX', Got '157;DXXX'
+Mismatch error: Expected '159:DXXX', Got '158:DXXX159:DXXX'
+Timeout error
+Test Results:
+Messages Sent: 167
+Messages Received: 96
+Errors: 71
+Error Rate: 42.51%
+Throughput: 156.00 bytes/second
+Message Rate: 16.70 messages/second
+
+Test: Baud=115200, Size=10 bytes, Interval=100ms
+Mismatch error: Expected '0:DXXX', Got '166:DXXX0:DXXX'
+Timeout error
+Mismatch error: Expected '6:DXXX', Got '6;DXXH'
+Timeout error
+Mismatch error: Expected '10:DXXX', Got '9:DXXX'
+Mismatch error: Expected '11:DXXX', Got '10:DXXX'
+Mismatch error: Expected '12:DXXX', Got '11:DXXX'
+Mismatch error: Expected '13:DXXX', Got '12:DXXX'
+Mismatch error: Expected '14:DXXX', Got '13:DXXX'
+Mismatch error: Expected '15:DXXX', Got '14:DXXX'
+Mismatch error: Expected '16:DXXX', Got '15;DXXX16:DXXX'
+Mismatch error: Expected '18:DXXX', Got '1<:DXXX'
+Mismatch error: Expected '22:DXXX', Got '23:DXXX'
+Mismatch error: Expected '24:DXXX', Got '24:DX\X'
+Timeout error
+Mismatch error: Expected '26:DXXX', Got '25:DLXX'
+Mismatch error: Expected '27:DXXX', Got '26:DXXX'
+Mismatch error: Expected '28:DXXX', Got '27:DXXX'
+Mismatch error: Expected '29:DXXX', Got '28:DLXX'
+Mismatch error: Expected '30:DXXX', Got '29:DXXX'
+Mismatch error: Expected '31:DXXX', Got '30:DXXX'
+Mismatch error: Expected '32:DXXX', Got '31:DXXX'
+Mismatch error: Expected '33:DXXX', Got '32:DXXX'
+Mismatch error: Expected '34:DXXX', Got '33:DXXX'
+Mismatch error: Expected '35:DXXX', Got '34:DXXX'
+Mismatch error: Expected '36:DXXX', Got '35:DXXX'
+Mismatch error: Expected '37:DXXX', Got '36:DXXX'
+Mismatch error: Expected '38:DXXX', Got '37:DXXX'
+Mismatch error: Expected '39:DXXX', Got '38:DXXX'
+Mismatch error: Expected '40:DXXX', Got '39:DXXX'
+Mismatch error: Expected '41:DXXX', Got '40:DXXX'
+Mismatch error: Expected '42:DXXX', Got '41:DXXX'
+Mismatch error: Expected '43:DXXX', Got '42:DXXX43:DXXX'
+Mismatch error: Expected '54:DXXX', Got '54;DXXX'
+Mismatch error: Expected '57:DXXX', Got '57;DXXX'
+Mismatch error: Expected '66:DXXX', Got '67:D\XX'
+Test Results:
+Messages Sent: 69
+Messages Received: 33
+Errors: 36
+Error Rate: 52.17%
+Throughput: 61.10 bytes/second
+Message Rate: 6.90 messages/second
+
+Test: Baud=115200, Size=50 bytes, Interval=0ms
+Mismatch error: Expected '0:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', Got '0:DXXXXXXXXXXXXXXXXX\XXXXXXXXXXXXXXXXXXXXXXXXX'
+Timeout error
+Timeout error
+Mismatch error: Expected '4:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', Got '4:DXXXXXXXXXXXXXXXXXXXXXXXXLXXXXXXXXXXXXXXXXXX'
+Mismatch error: Expected '7:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', Got '7:DXXXXXXXXXXXXXXXXXXXXXXXXXXX\XXXXXXXX\XXXXXX'
+Mismatch error: Expected '8:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', Got '8:DXX\XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX\XXXXXX'
+Timeout error
+Mismatch error: Expected '11:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', Got '11:DXXXXXXXXXXXXXXXXX\XXXXXXXX\XXXXXXXX\XXXXXXX'
+Mismatch error: Expected '12:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', Got '12:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX\X'
+Mismatch error: Expected '13:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', Got '13;DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+Mismatch error: Expected '14:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', Got '14:DXXXXXXXX\XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+Timeout error
+Mismatch error: Expected '17:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', Got '17:DXXXXXXXXXXXXX\XXXXX\XXXXXXXX\XXXXXXXXXXXXXX'
+Mismatch error: Expected '18:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', Got '1<:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXLXXXXXXX\XXXXXX'
+Timeout error
+Timeout error
+Mismatch error: Expected '21:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', Got '21:DHXXXXXXXX,XLXXXXX\XXLXXXXXLXXXXXXXXLXXXXX\X'
+Mismatch error: Expected '22:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', Got '22:DXXXXXLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+Mismatch error: Expected '24:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', Got '24:DXXXXXXXXLXXXXXXXXLXXXXXXXXLXXXXXXXXXXXXXXXX'
+Mismatch error: Expected '25:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', Got '25:DXXXXXXXX\XXXXXXXX\XXXXXXXX\XXXXXXXXXXXXXXXX'
+Mismatch error: Expected '26:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', Got '27:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+Timeout error
+Mismatch error: Expected '28:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', Got '28:D\XXXXXXXXXXXXXXXXXXXXXXXLXXXXXXXXXLXXXXXXXX'
+Mismatch error: Expected '30:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', Got '30:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXLXXXXXXXXXXXXX'
+Mismatch error: Expected '31:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', Got '31:DXXXXXXXXXXXXXXXXXXXX\XXXXXXXXXXXXXXX\XXXXXX'
+Mismatch error: Expected '32:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', Got '32:DXXXXXXXX\XXXXXXXXXXXXXXX\XXXXXXXXX\XXXXXXXX'
+Mismatch error: Expected '33:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', Got '33:DXXXXX\XXXXXXXXXXXXXXXXXXXXXXX\XXXXXXXX\XXXX'
+Mismatch error: Expected '34:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', Got '34:DXXX\XXXXXXXXXXXXXXXXXXXXXXXXX\XXXXXXXXXXXXX'
+Mismatch error: Expected '38:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', Got '3<:DHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+Mismatch error: Expected '39:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', Got '39:DXXXXXXXXXXXXXXXXXXXXXXXXX\XXXXXXXXXXXXXXXXX'
+Mismatch error: Expected '40:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', Got '40:DXXXXXXXXXXXX\XXXXXXXX\XXXXXXXX\XXXXXXXX\XXX'
+Mismatch error: Expected '41:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', Got '41:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX\XXX'
+Mismatch error: Expected '42:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', Got '42:DXXXXXXXXXXXX\XXXXXXXX\XXXXX\XX\XXXXX\XL\XXX'
+Mismatch error: Expected '43:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', Got '43:DXXXXXXLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+Mismatch error: Expected '44:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', Got '44:DXXXXXXXLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+Mismatch error: Expected '45:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', Got '45;DXXXXXXXXLXXXXXXXXXXXXXXXLXXXXXXXXXLXXXXXXXH'
+Mismatch error: Expected '47:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', Got '47:DXXXXXXXXX\LXXXXX\XXXXXXXXXXXLXXXXXXXXXLXXXX'
+Mismatch error: Expected '48:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', Got '48:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXLXXXXXXXXX'
+Mismatch error: Expected '49:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', Got '49:DXXXXXXXXXXXXXXXXXXXXXXXXXXXX\XXXXXXXXXXXXXX'
+Timeout error
+Timeout error
+Mismatch error: Expected '52:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', Got '52:DXXXXXXX\XXXXXXXXX\XXXXXXXXXXXXXXXXXXXXXXXXX'
+Mismatch error: Expected '53:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', Got '53:DXX\XXXXXXXX\XXXXX\XX\XXXXX\XXXXXXX\XXXXX\XX'
+Mismatch error: Expected '54:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', Got '54:DXXXXXXXXXXXXXXXXXXXXXXHXXXXXXXXX\XXXXXXXXXX'
+Mismatch error: Expected '56:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', Got '56:DXXXXXXXXLXXXXXX\XXXXX\XXXXXXXXXXXXXLXXXXXXX'
+Mismatch error: Expected '58:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', Got '58:DXXXXXXXXXLXXXXXXXXXLXXXXXXXXXXXXXXXXXXXX\XX'
+Mismatch error: Expected '59:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', Got '59:DXXXXXXXXX\XXLXHXXX\XXLXXXXXLXXXXXXXXXXXXXXX'
+Mismatch error: Expected '60:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', Got '60:DXXXXXXX\XX\XXHXXXXX\XXXXXXXXX\XXXXXXXXXHXXX'
+Mismatch error: Expected '61:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', Got '61:DXXXXXXXXXXXXXXXXXX\XXHXX\XX\XXXXXXXXXXXXX\X'
+Mismatch error: Expected '62:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', Got '62:DXXXXXXXLXXXXXXXXLXXXXXXXXLXXXXXXXXLXXXXXXXX'
+Mismatch error: Expected '63:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', Got '63:DLXXXXXXXXXLXXXXXXXXXXXXXXXLXXXXXXXXXXXXXXXX'
+Timeout error
+Test Results:
+Messages Sent: 65
+Messages Received: 13
+Errors: 52
+Error Rate: 80.00%
+Throughput: 317.50 bytes/second
+Message Rate: 6.50 messages/second
+
+Test: Baud=115200, Size=50 bytes, Interval=10ms
+Mismatch error: Expected '0:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', Got '0:DXXXXXXXXXXXXXXXXXXXXXX\XXXXXXXXXXXXXXXX\XXX'
+Mismatch error: Expected '1:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', Got '1:DXXXXXXXXXXXXXXXXXXX\XXXXXXXX\XXXXXXXX\XXXXX'
+Mismatch error: Expected '2:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', Got '2:DXXXXXX\XXXXXXXXXX\XXXXX\XXXXXXLXX\XXXXXXXXX'
+Mismatch error: Expected '3:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', Got '3:DXXXXXXXXXXXXXXXXXXXXX\XXXXXXXX\XXHXXXXX\XXH'
+Mismatch error: Expected '4:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', Got '4:DXXXXXXXXXXXXXXXLXXXXXXXXXXXXXXXLXXXXXX\XXXX'
+Timeout error
+Mismatch error: Expected '6:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', Got '5:DXXXXXLXXXXX\XXLXXXXX\XXLXXXXXLXXXXXXXXXXXXX'
+Mismatch error: Expected '7:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', Got '6:DXXXXXXXXXXXXXXXXXXXXXXXXXXXLXXXXXXXXXXXXXXX'
+Timeout error
+Mismatch error: Expected '9:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', Got '7:DX\XXLXXXXXXXXLXXXXXXXXXXXXXXXXXXXXXXXXXXXXX8:DXXXXXXXXXXXLX9:DXXXXX\XXXXXXXXLXXXXXXXXLXHXXXXXXXXX\XXXXXXX'
+Mismatch error: Expected '10:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', Got '10:DXXXXXXXXXHXXXXX\XXHXXXXX\XLLXXXX\XXLXXXXXLX'
+Mismatch error: Expected '11:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', Got '11:DXXXXXXXXX\XXLXXXXXXXXXXXXXXXLXXXXXXXXXLXXXX'
+Mismatch error: Expected '12:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', Got '12:DXXXXXXXXXXXXX\XX\XXXXX\XX\XXXXXXXX\XXHXXXXX'
+Mismatch error: Expected '13:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', Got '13:DX\XXXXXXLXXXXXXXXLXXXXXXXXXXXXXXXXX\XXXXXLX'
+Mismatch error: Expected '14:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', Got '14:DXXXXXXXXXXXXXXXXXXXX\XXXXX\XX\XXXXX\XX\XXXX'
+Mismatch error: Expected '15:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', Got '15:DXXXXXXX\XXXXXXXXXXXXXXX\XXXXXXXXX\XXXXXXXXX'
+Timeout error
+Mismatch error: Expected '19:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', Got '19:DXXXXXXXXXXXXX\XXXXXXXX\XXXXXXXXXXXXXXXXXXXX'
+Timeout error
+Timeout error
+Mismatch error: Expected '24:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', Got '24:DXXXXXX\XXXXXXXX\XXXXXXXXXXX\XXXXXXXX\XXXXXX'
+Mismatch error: Expected '27:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', Got '27:DXXXXXXXXXXXXXXXXXXXXXXXXXXLXXXXXXXXXXXXXXXX'
+Timeout error
+Mismatch error: Expected '29:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', Got '28:D\XXXXXXXXXXXXXXXXXXXXXXXX\XXXXXXXXXXXX\XXXX'
+Mismatch error: Expected '30:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', Got '29;DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+Mismatch error: Expected '31:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', Got '30:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+Mismatch error: Expected '32:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', Got '31:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX\XX'
+Mismatch error: Expected '33:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', Got '32:DXXX\XXXXXXXX\XXXXXXXX\XXXXXXXX\XXXXXXXXXXXX'
+Mismatch error: Expected '34:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', Got '33:DXXXXXXXX\XXXXXXXXX\XXXXXXXXX\XXXXXX\XXXXXXX34:DXXXXXXXXXXXXXXXXXXXXXX\XXXXXXXXLXXXXXXXXLXX'
+Mismatch error: Expected '35:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', Got '35:DXXXXXXXXX\XX\XXXXXXXX\XXXXXXXXXXXXXXXXXXXHX'
+Timeout error
+Mismatch error: Expected '37:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', Got '36:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+Mismatch error: Expected '38:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', Got '37:DXXXXXXXXXXXXXXXXXXXXLXXXXXXXXXXXXXXXXXXXXXX'
+Mismatch error: Expected '39:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', Got '38:DXXXXXX\LXXXX\XX\XLXXXXXXXX�XXXXXXXXXXXXXXXX'
+Mismatch error: Expected '40:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', Got '39:DXXHXXXXXXXXXXLXXXXXXXXXLXXXXXXXXXLXXXXXXXXX'
+Timeout error
+Mismatch error: Expected '42:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', Got '41:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXLXXXXXXXXXXXXXX'
+Mismatch error: Expected '43:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', Got '42;DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+Mismatch error: Expected '44:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', Got '43:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXLXXXXXXXXXXX'
+Timeout error
+Mismatch error: Expected '46:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', Got '46:DXXXXXXXXXXXXXXXHXXXXXXXXXLXXXXXXXXX\XXXXXXX'
+Mismatch error: Expected '47:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', Got '47:DXXXXXXXX\XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+Mismatch error: Expected '48:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', Got '48:DXXXX\XXLXXXXX\XXXXXXXXLXXXXXXXXXLXXXXXXXXXX'
+Mismatch error: Expected '50:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', Got '50:DXXXXXXXXXX\XXXXXXXXXXX\XXXXX\XXXXXXXXX\LXXX'
+Mismatch error: Expected '51:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', Got '51:DXX\XXXXXXXX\XXXXX\XXXXXXXX\XXXXXXXX\XXXXXXX'
+Mismatch error: Expected '52:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', Got '52:DXXX\XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX\XXXXX'
+Test Results:
+Messages Sent: 54
+Messages Received: 8
+Errors: 46
+Error Rate: 85.19%
+Throughput: 263.60 bytes/second
+Message Rate: 5.40 messages/second
+
+Test: Baud=115200, Size=50 bytes, Interval=100ms
+Mismatch error: Expected '0:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', Got '0:DLXX\XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+Mismatch error: Expected '2:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', Got '2:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXLXXXX'
+Timeout error
+Mismatch error: Expected '4:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', Got '3:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+Mismatch error: Expected '5:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', Got '4:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+Mismatch error: Expected '6:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', Got '5:DXXXXXXXXXXXXXXXXXXXXXXXXXXXX\\XXLXXXXXLXX\X'
+Mismatch error: Expected '7:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', Got '6:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+Mismatch error: Expected '8:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', Got '7:DXXXXX\XXXXXXXX\XXXXXXXX\XXXXXXXXXXXLXXX\XXX'
+Mismatch error: Expected '9:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', Got '8:DX\XX\XLXXX\XX\\XXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+Mismatch error: Expected '10:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', Got '9:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+Timeout error
+Mismatch error: Expected '12:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', Got '12;DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+Mismatch error: Expected '13:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', Got '13:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXLXX'
+Mismatch error: Expected '14:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', Got '14:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX\XXXXXXXX\XXX'
+Mismatch error: Expected '16:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', Got '12:DXXXXXXXXXXXXXXXXXXXXXXXXXXXLXXXXXXXXXXXXXXX'
+Mismatch error: Expected '17:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', Got '17:DXXXXXXXXXXXXXX\XXXXXXXXXXXXXXXXXXXXXXX\XXXX'
+Timeout error
+Mismatch error: Expected '19:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', Got '18:DXXXLXXXXXXXXXXXXXXXXLXXXXXXXXXLXXXXXXXXXXXX'
+Mismatch error: Expected '20:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', Got '19:DXXXXXXXXXXXX\XXXXXXXX\XXXXXXXX\XXXXX\XX\XXX'
+Mismatch error: Expected '21:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', Got '20:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+Mismatch error: Expected '22:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', Got '21:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+Mismatch error: Expected '23:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', Got '22:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+Mismatch error: Expected '24:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', Got '23:DLXXXXXXXXLXXXXXXXXXXXXXXXXXXX\XX\XXXXL\XX\X'
+Mismatch error: Expected '25:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', Got '24:DXXXXXXXX\XXXXXXXX\XXXXXXXX\XXXXX\XXXXXXXXXX�25:DXXXXXXXXXXXXXX\XXXXXXXXX\XXXXXXXXXXXXXXXXXX'
+Mismatch error: Expected '26:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', Got '26:DXXXXXXXXLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+Mismatch error: Expected '27:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', Got '27:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX\XXXXXXXXX'
+Mismatch error: Expected '28:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', Got '2<:DXXXXXXXXXXXXXXXX,XXXX\XXHXXXXX\XXHXXXXL\XXL'
+Mismatch error: Expected '29:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', Got '29:DXXXXXXX\XXXXXXXXXXXXXXXXXXXXXXXXX\XXXXXXXXX'
+Mismatch error: Expected '30:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', Got '30:DXXXXXXXXXXX\XXXXXXXX\XXXXX\XX\XXXXX\XX\XXX'
+Mismatch error: Expected '31:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', Got '31:DXXXXXXXXXXXXXXXXXXXXXXX\XXXXXXXXX\XXXXXXXXX'
+Mismatch error: Expected '32:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', Got '32:DXXXXXLXXXXXXXXXXXXXXXXXXXXXXXX\XXXXXXXX\XXX'
+Mismatch error: Expected '33:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', Got '33:DXXXX\XXLXXXXXXXXXXXXXXXXXXXXX\XLXXXXXXXXXXX'
+Mismatch error: Expected '35:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', Got '35:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXLXXXXXXXXXLXX'
+Mismatch error: Expected '36:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', Got '36:DXXXXXXXXXXXXXXX\XXXXXXXX\XXXXXXXXXXXXXXXXXX'
+Mismatch error: Expected '38:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', Got '3<:DXXXXXXXXXXXXXXXXXXXLXXXXXXXXXLXXXXXXXXXXXXX'
+Mismatch error: Expected '39:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', Got '39:DXXXXXXXXXXXXXXXXXXXX\XXXXXXXX\XXXXXXXXXXXX�'
+Mismatch error: Expected '40:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', Got '40:DXXXHXXXXX\XXHXXXXX\XXLXXXXXLXXXXXXXXXXXXXXX'
+Mismatch error: Expected '42:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', Got '42:DXXXXXXXXXLXXXXXXXXXLXXXXXXXXXXXXXXXLXXXXXXX'
+Mismatch error: Expected '43:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', Got '43:DXXXXXXXXX\XXXXXXXX\XXXXXXXX\XXXXXXXX\XXXXXX'
+Mismatch error: Expected '44:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', Got '44:DXXXXXXXXXXX\XXXXX\XX\XXXXX\XX\XXXXX\XXXXXXX'
+Mismatch error: Expected '45:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', Got '45;DXXXXXXXXLXXXXXXXXLXXXXXXXXLXXXXXXXXLXXXXXXX'
+Mismatch error: Expected '46:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', Got '47:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+Timeout error
+Mismatch error: Expected '49:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', Got '49:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX\XXXXXXXX'
+Mismatch error: Expected '50:DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', Got '50;DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+Timeout error
+Test Results:
+Messages Sent: 52
+Messages Received: 6
+Errors: 46
+Error Rate: 88.46%
+Throughput: 253.80 bytes/second
+Message Rate: 5.20 messages/second
+
+Test: Baud=115200, Size=100 bytes, Interval=0ms
+Timeout error
+Timeout error
+Timeout error
+Timeout error
+Timeout error
+Timeout error
+Timeout error
+Timeout error
+Timeout error
+Timeout error
+Test Results:
+Messages Sent: 10
+Messages Received: 0
+Errors: 10
+Error Rate: 100.00%
+Throughput: 98.00 bytes/second
+Message Rate: 1.00 messages/second
+
+Test: Baud=115200, Size=100 bytes, Interval=10ms
+Timeout error
+Timeout error
+Timeout error
+Timeout error
+Timeout error
+Timeout error
+Timeout error
+Timeout error
+Timeout error
+Timeout error
+Test Results:
+Messages Sent: 10
+Messages Received: 0
+Errors: 10
+Error Rate: 100.00%
+Throughput: 98.00 bytes/second
+Message Rate: 1.00 messages/second
+
+Timeout error
+Timeout error
+Timeout error
+Timeout error
+Timeout error
+Timeout error
+Timeout error
+Test Results:
+Messages Sent: 10
+Messages Received: 0
+Errors: 10
+Error Rate: 100.00%
+Throughput: 98.00 bytes/second
+Message Rate: 1.00 messages/second
+
+Test: Baud=115200, Size=100 bytes, Interval=100ms
+Timeout error
+Timeout error
+Timeout error
+Timeout error
+Timeout error
+Timeout error
+Timeout error
+Timeout error
+Timeout error
+Timeout error
+Test Results:
+Messages Sent: 10
+Messages Received: 0
+Errors: 10
+Error Rate: 100.00%
+Throughput: 98.00 bytes/second
+Message Rate: 1.00 messages/second
